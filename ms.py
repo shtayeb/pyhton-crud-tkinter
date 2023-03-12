@@ -158,7 +158,7 @@ frame_listbox.grid( row=1,column=1,sticky="nsew")
 
 #buttons
 
-b1=Button(master = frame_buttons,text="View all",width=12,command=view_command, background = "#34A2FE", relief = FLAT)
+b1=Button(master = frame_buttons,text="See all",width=12,command=view_command, background = "#34A2FE", relief = FLAT)
 b1.grid(row=2,column=3,sticky="nsew") 
 
 b2=Button(master = frame_buttons,text="Search Entry",width=12,command=search_command, background = "#34A2FE", relief = FLAT)
